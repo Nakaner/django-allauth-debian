@@ -101,7 +101,7 @@ Package: python-django-allauth-doc
 Section: doc
 Architecture: all
 Depends: ${misc:Depends},
-         ${shpinxdoc:Depends}
+         ${sphinxdoc:Depends}
 Description: Django app for local and social authentication (Documentation)
  Integrated set of Django applications addressing authentication,
  registration, account management as well as 3rd party (social)
