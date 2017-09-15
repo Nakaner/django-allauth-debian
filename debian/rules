@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=django-allauth
+
+%:
+	dh $@ --with python2,python3,sphinxdoc --buildsystem=pybuild
+
+#override_dh_install:
+#	dh_install
+
+override_dh_auto_build:
+	PYTHONPATH=. sphinx-build -b html -d docs/.build/.doctrees -N docs docs/.build/html
+	dh_auto_build
+
+override_dh_auto_test:
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+	set -e; \
+	for python in $(shell pyversions -r) $(shell py3versions -r); do \
+		PYTHONPATH="." DJANGO_SETTINGS_MODULE=test_settings $$python $(shell which django-admin) test allauth.tests;\
+	done
+endif
+
+get-orig-source:
+	uscan --verbose --rename

@@ -1,0 +1,8 @@
+Document: python-django-allauth-doc
+Title: Django Allauth Documentation
+Author: Raymond Penners and contributors
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-django-allauth-doc/html/index.html
+Files: /usr/share/doc/python-django-allauth-doc/html/*.html
