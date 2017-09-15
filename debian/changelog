@@ -1,8 +1,9 @@
 django-allauth (0.33.0-2) unstable; urgency=medium
 
-  * Fix depends on sphinxdoc packages
+  * debian/rules: Fix depends on sphinxdoc packages
+  * debian/control: Fix field 'Testsuite'
 
- -- Jonas Meurer <mejo@debian.org>  Fri, 15 Sep 2017 14:07:35 +0200
+ -- Jonas Meurer <mejo@debian.org>  Fri, 15 Sep 2017 14:22:18 +0200
 
 django-allauth (0.33.0-1) unstable; urgency=medium
 
