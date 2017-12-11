@@ -237,7 +237,7 @@ Development callback (redirect) URL
 Doximity
 --------
 
-Doximity Oauth2 implementation documentation
+Doximity OAuth2 implementation documentation
     https://www.doximity.com/developers/documentation#oauth
 
 Request API keys here
@@ -419,7 +419,7 @@ The following Facebook settings are available:
             'EXCHANGE_TOKEN': True,
             'LOCALE_FUNC': 'path.to.callable',
             'VERIFIED_EMAIL': False,
-            'VERSION': 'v2.4',
+            'VERSION': 'v2.5',
         }
     }
 
@@ -479,7 +479,7 @@ VERIFIED_EMAIL:
     risk.
 
 VERSION:
-    The Facebook Graph API version to use. The default is ``v2.4``.
+    The Facebook Graph API version to use. The default is ``v2.5``.
 
 App registration (get your key and secret here)
     A key and secret key can be obtained by
@@ -760,9 +760,20 @@ fetching the access token::
 App registration (get your key and secret here)
     https://www.linkedin.com/secure/developer?newapp=
 
-Development callback URL
-    Leave the OAuth redirect URL empty.
+Authorized Redirect URLs (OAuth2)
+*********************************
+Add any you need (up to 200) consisting of:
 
+    {``ACCOUNT_DEFAULT_HTTP_PROTOCOL``}://{hostname}{:optional_port}/{allauth_base_url}/linkedin_oauth2/login/callback/
+
+For example when using the built-in django server and default settings:
+
+    http://localhost:8000/accounts/linkedin_oauth2/login/callback/
+
+
+Development "Accept" and "Cancel" redirect URL (OAuth 1.0a)
+***********************************************************
+    Leave the OAuth1 redirect URLs empty.
 
 MailChimp (OAuth2)
 ------------------
@@ -957,7 +968,7 @@ Development callback URL
 Persona
 -------
 
-Note: Mozilla Persona will be shut down on November 30th 2016. See
+Note: Mozilla Persona was shut down on November 30th 2016. See
 `the announcement <https://wiki.mozilla.org/Identity/Persona_Shutdown_Guidelines_for_Reliers>`_
 for details.
 
