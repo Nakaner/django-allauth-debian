@@ -1,2 +1,3 @@
-python-django-allauth-doc: privacy-breach-facebook usr/share/doc/python-django-allauth-doc/html/providers.html
-python-django-allauth-doc: privacy-breach-facebook usr/share/doc/python-django-allauth-doc/html/release-notes.html
+# These links breach privacy, but are really useful in the documentation.
+python-django-allauth-doc: privacy-breach-facebook usr/share/doc/python-django-allauth/html/providers.html
+python-django-allauth-doc: privacy-breach-facebook usr/share/doc/python-django-allauth/html/release-notes.html

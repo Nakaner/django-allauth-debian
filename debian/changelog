@@ -18,6 +18,9 @@ django-allauth (0.34.0-1) unstable; urgency=medium
       websites, as they're just some pretty badges telling that the c-i passes
       or things like that, and then, useless into debian and triggering a
       privacy breach.
+  * python-django-allauth-doc: move doc files into
+    /usr/share/doc/python-django-allauth instead of
+    /usr/share/doc/python-django-allauth-doc.
 
  -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 12 Dec 2017 11:52:45 +0100
 
