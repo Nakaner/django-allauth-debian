@@ -1,1 +1,2 @@
 python-django-allauth: privacy-breach-facebook usr/lib/python2.7/dist-packages/allauth/socialaccount/providers/facebook/static/facebook/js/fbconnect.js
+python-django-allauth: privacy-breach-generic usr/lib/python2.7/dist-packages/allauth/socialaccount/providers/persona/templates/persona/auth.html (https://login.persona.org/include.js)

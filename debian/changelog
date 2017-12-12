@@ -18,6 +18,10 @@ django-allauth (0.34.0-1) unstable; urgency=medium
       websites, as they're just some pretty badges telling that the c-i passes
       or things like that, and then, useless into debian and triggering a
       privacy breach.
+  * d/python{,3}-django-allauth.lintian-overrides:
+    - Add overrides for privacy-breach-generic regarding the persona
+      authentication, as it's the package's purpose to allow such connection
+      via a connector.
   * python-django-allauth-doc: move doc files into
     /usr/share/doc/python-django-allauth instead of
     /usr/share/doc/python-django-allauth-doc.
