@@ -8,6 +8,9 @@ export PYBUILD_NAME=django-allauth
 #override_dh_install:
 #	dh_install
 
+override_dh_installchangelogs:
+	dh_installchangelogs ChangeLog.rst
+
 override_dh_auto_build:
 	PYTHONPATH=. sphinx-build -b html -d docs/.build/.doctrees -N docs docs/.build/html
 	dh_auto_build

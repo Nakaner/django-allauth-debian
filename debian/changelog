@@ -5,6 +5,8 @@ django-allauth (0.34.0-1) unstable; urgency=medium
     - Add myself to uploaders with mejo's approval
     - Bump Standards-Version to 4.1.2
     - Remove Test-Suite, as d/tests/control exists.
+  * d/rules:
+    - Add install changelogs rules
   * d/patches:
     - Add 0001-Remove-all-privacy-breack-links-from-documentation.patch:
       This patch cleans the README.rst file from its links to outside
