@@ -1,5 +1,5 @@
-From 72868671fbec84c377d6b63557759e54a5dc8a27 Mon Sep 17 00:00:00 2001
-From: =?UTF-8?q?Pierre-Elliott=20B=C3=A9cue?= <becue@crans.org>
+From 16c4b76a9af1993aa110a894388cd80a9780b1e0 Mon Sep 17 00:00:00 2001
+From: Laura Arjona Reina <larjona@debian.org>
 Date: Wed, 13 Dec 2017 16:47:51 +0100
 Subject: Fixes wrongly encoded characters in some .po files.
 
