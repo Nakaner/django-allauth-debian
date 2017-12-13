@@ -1,27 +1,14 @@
-From 7fd0a5bb41e6a9c09ebfa2b21e636d59028daaca Mon Sep 17 00:00:00 2001
+From 72868671fbec84c377d6b63557759e54a5dc8a27 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Pierre-Elliott=20B=C3=A9cue?= <becue@crans.org>
-Date: Wed, 13 Dec 2017 16:42:14 +0100
-Subject: Fixes wrongly encoded character in some po files
+Date: Wed, 13 Dec 2017 16:47:51 +0100
+Subject: Fixes wrongly encoded characters in some .po files.
 
 ---
- allauth/locale/es/LC_MESSAGES/django.mo    | Bin 13890 -> 13890 bytes
- allauth/locale/es/LC_MESSAGES/django.po    |   2 +-
- allauth/locale/pt_PT/LC_MESSAGES/django.mo | Bin 10642 -> 10642 bytes
- allauth/locale/pt_PT/LC_MESSAGES/django.po |   2 +-
- allauth/locale/sv/LC_MESSAGES/django.mo    | Bin 11050 -> 11050 bytes
- allauth/locale/sv/LC_MESSAGES/django.po    |   2 +-
- allauth/locale/tr/LC_MESSAGES/django.mo    | Bin 10605 -> 10605 bytes
- allauth/locale/tr/LC_MESSAGES/django.po    |   2 +-
- 8 files changed, 4 insertions(+), 4 deletions(-)
-
-diff --git a/allauth/locale/es/LC_MESSAGES/django.mo b/allauth/locale/es/LC_MESSAGES/django.mo
-index c81106acd06999eba7be6e8884b693d448a0f857..b07e9127071de570950b4dd5c3552b64a7c35893 100644
-GIT binary patch
-delta 15
-WcmX?<b0}wnp&ZlE1)GiK_$2^1)dlVV
-
-delta 15
-WcmX?<b0}wnp&ZkpuFb}B{1N~-JO$MN
+ allauth/locale/es/LC_MESSAGES/django.po    | 2 +-
+ allauth/locale/pt_PT/LC_MESSAGES/django.po | 2 +-
+ allauth/locale/sv/LC_MESSAGES/django.po    | 2 +-
+ allauth/locale/tr/LC_MESSAGES/django.po    | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/allauth/locale/es/LC_MESSAGES/django.po b/allauth/locale/es/LC_MESSAGES/django.po
 index a33bbcf..bdb8a9a 100644
@@ -36,15 +23,6 @@ index a33bbcf..bdb8a9a 100644
  "Language-Team: Spanish (http://www.transifex.com/projects/p/django-allauth/"
  "language/es/)\n"
  "Language: es\n"
-diff --git a/allauth/locale/pt_PT/LC_MESSAGES/django.mo b/allauth/locale/pt_PT/LC_MESSAGES/django.mo
-index dd9f05c7f5d1c3f19dc4d0309ae57466dafb1d3c..33164554f7401ef4be0754e9aba7baf92ee6c70b 100644
-GIT binary patch
-delta 15
-XcmbOfJSlj?A91Fm3pW1~pCSkVJk$qb
-
-delta 15
-XcmbOfJSlj?A91EbU7P=jPZ0zFJUa(T
-
 diff --git a/allauth/locale/pt_PT/LC_MESSAGES/django.po b/allauth/locale/pt_PT/LC_MESSAGES/django.po
 index a25859d..88ab9b3 100644
 --- a/allauth/locale/pt_PT/LC_MESSAGES/django.po
@@ -58,15 +36,6 @@ index a25859d..88ab9b3 100644
  "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
  "django-allauth/language/pt_PT/)\n"
  "Language: pt_PT\n"
-diff --git a/allauth/locale/sv/LC_MESSAGES/django.mo b/allauth/locale/sv/LC_MESSAGES/django.mo
-index 9f9c6724c233c95def8682d8026d1f3e86079beb..c7ab55a2512a0461daaae09f262af8520e32b58e 100644
-GIT binary patch
-delta 15
-XcmZ1#wkmAH4@st@3pW3fG!O&;KH3K`
-
-delta 15
-XcmZ1#wkmAH4@ss&U7LSN8VCXaK0yZ;
-
 diff --git a/allauth/locale/sv/LC_MESSAGES/django.po b/allauth/locale/sv/LC_MESSAGES/django.po
 index 86861f0..34cad4c 100644
 --- a/allauth/locale/sv/LC_MESSAGES/django.po
@@ -80,15 +49,6 @@ index 86861f0..34cad4c 100644
  "Language-Team: Swedish (http://www.transifex.com/projects/p/django-allauth/"
  "language/sv/)\n"
  "Language: sv\n"
-diff --git a/allauth/locale/tr/LC_MESSAGES/django.mo b/allauth/locale/tr/LC_MESSAGES/django.mo
-index ab77145d81a06da47fedead75bf3ed2d9327820d..e13dcfeba1379783f29b4136c37c7caae36a4132 100644
-GIT binary patch
-delta 15
-WcmaDG^fqV%vjo%81)EtVG6VrQ#0B~Q
-
-delta 15
-WcmaDG^fqV%vjo$juFb3x8G-;fD+S>I
-
 diff --git a/allauth/locale/tr/LC_MESSAGES/django.po b/allauth/locale/tr/LC_MESSAGES/django.po
 index c6b54ae..6814f18 100644
 --- a/allauth/locale/tr/LC_MESSAGES/django.po
