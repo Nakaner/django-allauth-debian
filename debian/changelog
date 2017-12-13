@@ -1,5 +1,6 @@
 django-allauth (0.34.0-1) unstable; urgency=medium
 
+  [ Pierre-Elliott Bécue ]
   * New upstream release
   * d/control:
     - Add myself to uploaders with mejo's approval
@@ -26,14 +27,11 @@ django-allauth (0.34.0-1) unstable; urgency=medium
     /usr/share/doc/python-django-allauth instead of
     /usr/share/doc/python-django-allauth-doc.
 
- -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 12 Dec 2017 13:14:40 +0100
+  [ Jonas Meurer ]
+  * d/rules: Fix depends on sphinxdoc packages
+  * d/control: Fix field 'Testsuite'
 
-django-allauth (0.33.0-2) unstable; urgency=medium
-
-  * debian/rules: Fix depends on sphinxdoc packages
-  * debian/control: Fix field 'Testsuite'
-
- -- Jonas Meurer <mejo@debian.org>  Fri, 15 Sep 2017 14:22:18 +0200
+ -- Jonas Meurer <mejo@debian.org>  Wed, 13 Dec 2017 09:45:12 +0100
 
 django-allauth (0.33.0-1) unstable; urgency=medium
 
