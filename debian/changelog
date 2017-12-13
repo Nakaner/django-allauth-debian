@@ -28,10 +28,11 @@ django-allauth (0.34.0-1) unstable; urgency=medium
     /usr/share/doc/python-django-allauth-doc.
 
   [ Jonas Meurer ]
-  * d/rules: Fix depends on sphinxdoc packages
-  * d/control: Fix field 'Testsuite'
+  * d/rules: Fix depends on sphinxdoc packages.
+  * d/control: Fix field 'Testsuite'.
+  * d/*.lintian-overrides: Add/update comments for lintian overrides.
 
- -- Jonas Meurer <mejo@debian.org>  Wed, 13 Dec 2017 09:45:12 +0100
+ -- Jonas Meurer <mejo@debian.org>  Wed, 13 Dec 2017 13:00:28 +0100
 
 django-allauth (0.33.0-1) unstable; urgency=medium
 
