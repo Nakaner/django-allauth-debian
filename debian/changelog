@@ -31,8 +31,9 @@ django-allauth (0.34.0-1) unstable; urgency=medium
   * d/rules: Fix depends on sphinxdoc packages.
   * d/control: Fix field 'Testsuite'.
   * d/*.lintian-overrides: Add/update comments for lintian overrides.
+  * d/gbp.conf: Add gbp.conf setting pristine-tar = True.
 
- -- Jonas Meurer <mejo@debian.org>  Wed, 13 Dec 2017 13:00:28 +0100
+ -- Jonas Meurer <mejo@debian.org>  Wed, 13 Dec 2017 13:02:50 +0100
 
 django-allauth (0.33.0-1) unstable; urgency=medium
 
