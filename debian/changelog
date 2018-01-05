@@ -14,8 +14,9 @@ django-allauth (0.34.0-2) unstable; urgency=medium
   * Remove d/python-django-allauth-doc.lintian-overrides: Remove lintian
     overrides for erroneous Facebook privacy breach warnings. The false
     positives were fixed in lintian (#884296) in the meantime.
+  * d/control: Bump standards-version to 4.1.3, no changes required.
 
- -- Jonas Meurer <jonas@freesources.org>  Fri, 05 Jan 2018 16:44:22 +0100
+ -- Jonas Meurer <jonas@freesources.org>  Fri, 05 Jan 2018 16:47:22 +0100
 
 django-allauth (0.34.0-1) unstable; urgency=medium
 
