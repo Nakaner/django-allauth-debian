@@ -1,0 +1,3 @@
+# Lintian erroneously detects links to facebook docs as privacy breach
+python-django-allauth-doc: privacy-breach-facebook usr/share/doc/python-django-allauth/html/providers.html
+python-django-allauth-doc: privacy-breach-facebook usr/share/doc/python-django-allauth/html/release-notes.html
