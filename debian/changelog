@@ -6,7 +6,7 @@ django-allauth (0.34.0-3) unstable; urgency=medium
   * Raise dh compat to 11
   * Uses an https link for copyright format
 
- -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 05 Feb 2018 23:09:26 +0100
+ -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 05 Feb 2018 23:21:24 +0100
 
 django-allauth (0.34.0-2) unstable; urgency=medium
 
