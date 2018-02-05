@@ -4,6 +4,7 @@ django-allauth (0.34.0-3) unstable; urgency=medium
     - Fix a typo on the dependencies of the python3 package
     - debhelper version dependency to 11
   * Raise dh compat to 11
+  * Uses an https link for copyright format
 
  -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 05 Feb 2018 23:09:26 +0100
 
