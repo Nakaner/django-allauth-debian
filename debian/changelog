@@ -3,10 +3,11 @@ django-allauth (0.34.0-3) unstable; urgency=medium
   * d/control:
     - Fix a typo on the dependencies of the python3 package
     - debhelper version dependency to 11
+    - Set the -doc package to Multi-Arch: foreign
   * Raise dh compat to 11
   * Uses an https link for copyright format
 
- -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 05 Feb 2018 23:21:24 +0100
+ -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 05 Feb 2018 23:23:56 +0100
 
 django-allauth (0.34.0-2) unstable; urgency=medium
 

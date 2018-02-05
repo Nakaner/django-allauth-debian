@@ -100,6 +100,7 @@ Description: Django app for local and social authentication (Python 3 version)
 Package: python-django-allauth-doc
 Section: doc
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${sphinxdoc:Depends}
 Description: Django app for local and social authentication (Documentation)
