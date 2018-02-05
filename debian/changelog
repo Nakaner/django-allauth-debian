@@ -6,8 +6,9 @@ django-allauth (0.34.0-3) unstable; urgency=medium
     - Set the -doc package to Multi-Arch: foreign
   * Raise dh compat to 11
   * Uses an https link for copyright format
+  * Drop git-dpm
 
- -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 05 Feb 2018 23:23:56 +0100
+ -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 06 Feb 2018 00:45:08 +0100
 
 django-allauth (0.34.0-2) unstable; urgency=medium
 
