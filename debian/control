@@ -65,7 +65,7 @@ Architecture: all
 Depends: python3-django,
          python3-openid,
          python3-requests,
-         python-requests-oauthlib,
+         python3-requests-oauthlib,
          ${misc:Depends},
          ${python3:Depends}
 Suggests: python-django-allauth-doc

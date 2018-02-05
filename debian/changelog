@@ -1,3 +1,10 @@
+django-allauth (0.34.0-3) unstable; urgency=medium
+
+  * d/control:
+    - Fix a typo on the dependencies of the python3 package
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 05 Feb 2018 23:09:26 +0100
+
 django-allauth (0.34.0-2) unstable; urgency=medium
 
   [ Laura Arjona Reina ]
