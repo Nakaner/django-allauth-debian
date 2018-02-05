@@ -4,7 +4,7 @@ Uploaders: Jonas Meurer <mejo@debian.org>,
            Pierre-Elliott Bécue <becue@crans.org>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                dh-python,
                python-all,
                python-django,
