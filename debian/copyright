@@ -3,12 +3,12 @@ Source: https://github.com/pennersr/django-allauth
 Author: Raymond Penners <raymond.penners@intenct.nl>
 
 Files: *
-Copyright: © 2010-2017 Raymond Penners and contributors
+Copyright: © 2010-2018 Raymond Penners and contributors
 License: MIT
 
 Files: debian/*
 Copyright: © 2017 Jonas Meurer <mejo@debian.org>
-           © 2017 Pierre-Elliott Bécue <becue@crans.org>
+           © 2018 Pierre-Elliott Bécue <becue@crans.org>
 License: GPL-2
 
 License: MIT
