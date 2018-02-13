@@ -4,7 +4,7 @@ Uploaders: Jonas Meurer <mejo@debian.org>,
            Pierre-Elliott Bécue <becue@crans.org>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                dh-python,
                python-all,
                python-django,
@@ -65,7 +65,7 @@ Architecture: all
 Depends: python3-django,
          python3-openid,
          python3-requests,
-         python-requests-oauthlib,
+         python3-requests-oauthlib,
          ${misc:Depends},
          ${python3:Depends}
 Suggests: python-django-allauth-doc
@@ -100,6 +100,7 @@ Description: Django app for local and social authentication (Python 3 version)
 Package: python-django-allauth-doc
 Section: doc
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${sphinxdoc:Depends}
 Description: Django app for local and social authentication (Documentation)

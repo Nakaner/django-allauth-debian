@@ -1,3 +1,22 @@
+django-allauth (0.35.0-1) unstable; urgency=medium
+
+  * New upstream release 0.35.0
+  * Change d/copyright years
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 06 Feb 2018 10:31:36 +0100
+
+django-allauth (0.34.0-3) unstable; urgency=medium
+
+  * d/control:
+    - Fix a typo on the dependencies of the python3 package
+    - debhelper version dependency to 11
+    - Set the -doc package to Multi-Arch: foreign
+  * Raise dh compat to 11
+  * Uses an https link for copyright format
+  * Drop git-dpm
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 06 Feb 2018 00:45:08 +0100
+
 django-allauth (0.34.0-2~bpo9+1) stretch-backports; urgency=medium
 
   [ Pierre-Elliott Bécue ]
