@@ -1,3 +1,10 @@
+django-allauth (0.35.0-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+  * Build-Depends changed for debhelper to >= 11~
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 13 Feb 2018 13:55:24 +0100
+
 django-allauth (0.35.0-1) unstable; urgency=medium
 
   * New upstream release 0.35.0
