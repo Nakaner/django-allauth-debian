@@ -1,3 +1,9 @@
+django-allauth (0.35.0-2) UNRELEASED; urgency=medium
+
+  * d/control: Set Vcs-* to salsa.debian.org
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 13 Feb 2018 10:18:15 +0100
+
 django-allauth (0.35.0-1) unstable; urgency=medium
 
   * New upstream release 0.35.0
