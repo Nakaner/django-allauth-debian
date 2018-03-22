@@ -1,3 +1,9 @@
+django-allauth (0.35.0-1~bpo9+3) stretch-backports; urgency=medium
+
+  * Put explicit dependency on django 1.11 ALSO on the binary packages.
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Thu, 22 Mar 2018 15:08:10 +0100
+
 django-allauth (0.35.0-1~bpo9+2) stretch-backports; urgency=medium
 
   * Put explicit dependency on django 1.11 as authenticate function's
