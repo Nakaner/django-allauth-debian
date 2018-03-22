@@ -3,7 +3,10 @@ django-allauth (0.35.0-2) unstable; urgency=medium
   [ Ondřej Nový ]
   * d/control: Set Vcs-* to salsa.debian.org
 
- -- Pierre-Elliott Bécue <becue@crans.org>  Sun, 11 Mar 2018 15:26:00 +0100
+  [ Pierre-Elliott Bécue ]
+  * Update lintian overrides.
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Sun, 11 Mar 2018 15:31:40 +0100
 
 django-allauth (0.35.0-1) unstable; urgency=medium
 
