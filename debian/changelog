@@ -1,3 +1,9 @@
+django-allauth (0.35.0-3) UNRELEASED; urgency=medium
+
+  * d/tests: Use AUTOPKGTEST_TMP instead of ADTTMP
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 17 Apr 2018 13:24:50 +0200
+
 django-allauth (0.35.0-2) unstable; urgency=medium
 
   [ Ondřej Nový ]
