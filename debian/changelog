@@ -8,8 +8,11 @@ django-allauth (0.36.0-1) UNRELEASED; urgency=medium
   * d/control:
     - Add explicit dependency on django 1.11 as current stable version is
       1.10, which is no longer supported by django-allauth.
+    - Drop the X-Python{,3}-Version fields as Python 2 (resp. 3) version in all
+      supported releases of Debian is newer than the one mentioned in these
+      fields.
 
- -- Pierre-Elliott Bécue <becue@crans.org>  Fri, 11 May 2018 13:19:15 +0200
+ -- Pierre-Elliott Bécue <becue@crans.org>  Fri, 11 May 2018 13:25:46 +0200
 
 django-allauth (0.35.0-2) unstable; urgency=medium
 
