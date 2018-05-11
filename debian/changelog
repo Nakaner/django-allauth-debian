@@ -1,8 +1,15 @@
-django-allauth (0.35.0-3) UNRELEASED; urgency=medium
+django-allauth (0.36.0-1) UNRELEASED; urgency=medium
 
+  [ Ondřej Nový ]
   * d/tests: Use AUTOPKGTEST_TMP instead of ADTTMP
 
- -- Ondřej Nový <onovy@debian.org>  Tue, 17 Apr 2018 13:24:50 +0200
+  [ Pierre-Elliott Bécue ]
+  * New upstream release: 0.36.0
+  * d/control:
+    - Add explicit dependency on django 1.11 as current stable version is
+      1.10, which is no longer supported by django-allauth.
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Fri, 11 May 2018 13:19:15 +0200
 
 django-allauth (0.35.0-2) unstable; urgency=medium
 

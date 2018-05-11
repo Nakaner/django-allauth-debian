@@ -7,7 +7,7 @@ Priority: optional
 Build-Depends: debhelper (>= 11),
                dh-python,
                python-all,
-               python-django,
+               python-django (>= 1:1.11~),
                python-mock,
                python-requests,
                python-setuptools,
@@ -25,7 +25,7 @@ X-Python3-Version: >=3.4
 
 Package: python-django-allauth
 Architecture: all
-Depends: python-django,
+Depends: python-django (>= 1:1.11~),
          python-openid,
          python-requests,
          python-requests-oauthlib,
@@ -50,8 +50,10 @@ Description: Django app for local and social authentication (Python 2 version)
   * OpenId
   * Paypal (OAuth2)
   * Persona
+  * QuickBooks
   * SoundCloud (OAuth2)
   * Stack Exchange (OAuth2)
+  * Telegram
   * Twitch (OAuth2)
   * Twitter (OAuth)
   * Vimeo (OAuth)
@@ -62,7 +64,7 @@ Description: Django app for local and social authentication (Python 2 version)
 
 Package: python3-django-allauth
 Architecture: all
-Depends: python3-django,
+Depends: python3-django (>= 1:1.11~),
          python3-openid,
          python3-requests,
          python3-requests-oauthlib,
@@ -87,8 +89,10 @@ Description: Django app for local and social authentication (Python 3 version)
   * OpenId
   * Paypal (OAuth2)
   * Persona
+  * QuickBooks
   * SoundCloud (OAuth2)
   * Stack Exchange (OAuth2)
+  * Telegram
   * Twitch (OAuth2)
   * Twitter (OAuth)
   * Vimeo (OAuth)
@@ -121,8 +125,10 @@ Description: Django app for local and social authentication (Documentation)
   * OpenId
   * Paypal (OAuth2)
   * Persona
+  * QuickBooks
   * SoundCloud (OAuth2)
   * Stack Exchange (OAuth2)
+  * Telegram
   * Twitch (OAuth2)
   * Twitter (OAuth)
   * Vimeo (OAuth)
