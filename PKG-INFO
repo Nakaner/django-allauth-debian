@@ -1,11 +1,12 @@
 Metadata-Version: 1.1
 Name: django-allauth
-Version: 0.35.0
+Version: 0.36.0
 Summary: Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
 Home-page: http://github.com/pennersr/django-allauth
 Author: Raymond Penners
 Author-email: raymond.penners@intenct.nl
 License: UNKNOWN
+Description-Content-Type: UNKNOWN
 Description: ==========================
         Welcome to django-allauth!
         ==========================
