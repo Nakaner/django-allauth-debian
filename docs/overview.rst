@@ -129,6 +129,8 @@ Supported Providers
 
 - Pinterest (OAuth2)
 
+- QuickBooks (OAuth2)
+
 - Reddit (OAuth2)
 
 - Salesforce (OAuth2)
@@ -144,6 +146,8 @@ Supported Providers
 - Stack Exchange (OAuth2)
 
 - Stripe (OAuth2)
+
+- Telegram
 
 - Trello (OAuth)
 
