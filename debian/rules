@@ -23,6 +23,3 @@ ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 		PYTHONPATH="." DJANGO_SETTINGS_MODULE=test_settings $$python $(shell which django-admin) test allauth.tests;\
 	done
 endif
-
-get-orig-source:
-	uscan --verbose --rename
