@@ -1,2 +1,2 @@
 # Don't store changes on egg-info directorys
-extend-diff-ignore = "(^|/)(django_allauth\.egg-info)$"
+extend-diff-ignore = "(^|/)(django_allauth\.egg-info)/"
