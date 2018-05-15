@@ -1,10 +1,12 @@
-django-allauth (0.36.0-1) UNRELEASED; urgency=medium
+django-allauth (0.36.0+ds-1) UNRELEASED; urgency=medium
 
   [ Ondřej Nový ]
   * d/tests: Use AUTOPKGTEST_TMP instead of ADTTMP
 
   [ Pierre-Elliott Bécue ]
-  * New upstream release: 0.36.0
+  * New upstream release: 0.36.0+ds
+    DS rebuild as the .mo files provided in allauth/locale/*/LC_MESSAGES are
+    not supposed to be there.
   * d/control:
     - Add explicit dependency on django 1.11 as current stable version is
       1.10, which is no longer supported by django-allauth.

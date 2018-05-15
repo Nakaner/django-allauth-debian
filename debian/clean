@@ -1,1 +1,2 @@
 docs/.build
+allauth/locale/*/LC_MESSAGES/*.mo
