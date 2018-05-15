@@ -21,7 +21,7 @@ django-allauth (0.36.0+ds-1) UNRELEASED; urgency=medium
       regexp.
     - Remove a useless comment
   * d/clean:
-    - The .build directory of the documentation isn't removed in any build
+    - The .build directory of the documentation isn't removed in all build
       secnario. (eg: build outside of chroots)
 
  -- Pierre-Elliott Bécue <becue@crans.org>  Fri, 11 May 2018 13:32:56 +0200
