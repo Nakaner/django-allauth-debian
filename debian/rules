@@ -5,9 +5,6 @@ export PYBUILD_NAME=django-allauth
 %:
 	dh $@ --with python2,python3,sphinxdoc --buildsystem=pybuild
 
-#override_dh_install:
-#	dh_install
-
 override_dh_auto_build:
 	cd allauth && django-admin compilemessages
 	PYTHONPATH=. sphinx-build -b html -d docs/.build/.doctrees -N docs docs/.build/html
