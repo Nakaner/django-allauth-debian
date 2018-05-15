@@ -25,6 +25,7 @@ django-allauth (0.36.0+ds-1) UNRELEASED; urgency=medium
       secnario. (eg: build outside of chroots)
   * d/watch:
     - Add dversionmangle option
+    - Add repacksuffix option
   * d/copyright:
     - Add a Files-Excluded statement so uscan does the next DS tarball by
       itself
