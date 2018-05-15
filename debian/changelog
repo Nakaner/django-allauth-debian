@@ -18,6 +18,9 @@ django-allauth (0.36.0-1) UNRELEASED; urgency=medium
     - Drop the dh_installchangelogs rule as ChangeLog.rst enters into dh's
       regexp.
     - Remove a useless comment
+  * d/clean:
+    - The .build directory of the documentation isn't removed in any build
+      secnario. (eg: build outside of chroots)
 
  -- Pierre-Elliott Bécue <becue@crans.org>  Fri, 11 May 2018 13:32:56 +0200
 
