@@ -1,3 +1,3 @@
 # Connection to facebook etc. are required for the purpose of the module
-python-django-allauth: privacy-breach-facebook usr/lib/python2.7/dist-packages/allauth/socialaccount/providers/facebook/static/facebook/js/fbconnect.js
-python-django-allauth: privacy-breach-generic usr/lib/python2.7/dist-packages/allauth/socialaccount/providers/persona/templates/persona/auth.html (https://login.persona.org/include.js)
+python-django-allauth: privacy-breach-facebook usr/lib/python2.7/dist-packages/allauth/socialaccount/providers/facebook/static/facebook/js/fbconnect.js (choke on: facebook-jssdk)
+python-django-allauth: privacy-breach-generic usr/lib/python2.7/dist-packages/allauth/socialaccount/providers/persona/templates/persona/auth.html [<script src="https://login.persona.org/include.js">] (https://login.persona.org/include.js)

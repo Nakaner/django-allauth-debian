@@ -1,3 +1,39 @@
+django-allauth (0.36.0+ds-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/tests: Use AUTOPKGTEST_TMP instead of ADTTMP
+
+  [ Pierre-Elliott Bécue ]
+  * New upstream release: 0.36.0+ds
+    DS rebuild as the .mo files provided in allauth/locale/*/LC_MESSAGES are
+    not supposed to be there.
+  * d/control:
+    - Add explicit dependency on django 1.11 as current stable version is
+      1.10, which is no longer supported by django-allauth.
+    - Drop the X-Python{,3}-Version fields as Python 2 (resp. 3) version in all
+      supported releases of Debian is newer than the one mentioned in these
+      fields.
+    - Bump Standards-Version to 4.1.4.
+  * d/rules:
+    - Drop the get-orig-source rule as it went out from the policy, and only
+      calls uscan.
+    - Drop the dh_installchangelogs rule as ChangeLog.rst enters into dh's
+      regexp.
+    - Remove a useless comment
+  * d/clean:
+    - The .build directory of the documentation isn't removed in all build
+      secnario. (eg: build outside of chroots)
+  * d/watch:
+    - Add dversionmangle option
+    - Add repacksuffix option
+  * d/copyright:
+    - Add a Files-Excluded statement so uscan does the next DS tarball by
+      itself
+  * d/source/options:
+    - Ignore changes on the egg-info directory
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 15 May 2018 13:53:49 +0200
+
 django-allauth (0.35.0-1~bpo9+3) stretch-backports; urgency=medium
 
   * Put explicit dependency on django 1.11 ALSO on the binary packages.
@@ -17,6 +53,16 @@ django-allauth (0.35.0-1~bpo9+1) stretch-backports; urgency=medium
   * Build-Depends changed for debhelper to >= 11~
 
  -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 13 Feb 2018 13:55:24 +0100
+
+django-allauth (0.35.0-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+
+  [ Pierre-Elliott Bécue ]
+  * Update lintian overrides.
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Sun, 11 Mar 2018 15:31:40 +0100
 
 django-allauth (0.35.0-1) unstable; urgency=medium
 

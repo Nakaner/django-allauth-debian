@@ -1,0 +1,8 @@
+The tarball was rebuilt using the source tarball provided by pypi.debian.net,
+and stripping from it all the allauth/locale/*/LC_MESSAGES/*.mo files, using a
+simple
+
+`find allauth/locale/ -type f -name "*.mo" -delete`
+
+These .mo files are binary files that are rebuilt during the build process. At
+best their changes remain in the worktree, misleading the dpkg-source process.
