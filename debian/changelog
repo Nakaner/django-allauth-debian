@@ -1,3 +1,10 @@
+django-allauth (0.36.0+ds-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+  * Update lintian-overrides.
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 20 Aug 2018 20:15:21 +0200
+
 django-allauth (0.36.0+ds-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
