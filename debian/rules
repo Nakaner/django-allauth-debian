@@ -7,7 +7,7 @@ export PYBUILD_NAME=django-allauth
 
 override_dh_auto_build:
 	cd allauth && django-admin compilemessages
-	PYTHONPATH=. sphinx-build -b html -d docs/.build/.doctrees -N docs docs/.build/html
+	PYTHONPATH=. python3 -m sphinx -b html -d docs/.build/.doctrees -N docs docs/.build/html
 	dh_auto_build
 
 override_dh_auto_test:
