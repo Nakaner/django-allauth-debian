@@ -1,10 +1,11 @@
-django-allauth (0.38.0+ds-1) UNRELEASED; urgency=medium
+django-allauth (0.38.0+ds-1) unstable; urgency=medium
 
   * New upstream release 0.38.0+ds
   * d/control:
     - Replace my Crans address by my Debian address
+    - Bump Standards-Version to 4.2.1. No change required
 
- -- Pierre-Elliott Bécue <peb@debian.org>  Fri, 26 Oct 2018 23:17:29 +0200
+ -- Pierre-Elliott Bécue <peb@debian.org>  Fri, 26 Oct 2018 23:22:41 +0200
 
 django-allauth (0.36.0+ds-1) unstable; urgency=medium
 
