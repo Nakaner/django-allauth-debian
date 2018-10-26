@@ -1,7 +1,7 @@
 Source: django-allauth
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Jonas Meurer <mejo@debian.org>,
-           Pierre-Elliott Bécue <becue@crans.org>
+           Pierre-Elliott Bécue <peb@debian.org>
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 11),
