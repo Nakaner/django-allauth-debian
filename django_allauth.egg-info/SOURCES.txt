@@ -40,6 +40,8 @@ allauth/locale/ar/LC_MESSAGES/django.mo
 allauth/locale/ar/LC_MESSAGES/django.po
 allauth/locale/cs/LC_MESSAGES/django.mo
 allauth/locale/cs/LC_MESSAGES/django.po
+allauth/locale/da/LC_MESSAGES/django.mo
+allauth/locale/da/LC_MESSAGES/django.po
 allauth/locale/de/LC_MESSAGES/django.mo
 allauth/locale/de/LC_MESSAGES/django.po
 allauth/locale/el/LC_MESSAGES/django.mo
@@ -48,6 +50,8 @@ allauth/locale/en/LC_MESSAGES/django.mo
 allauth/locale/en/LC_MESSAGES/django.po
 allauth/locale/es/LC_MESSAGES/django.mo
 allauth/locale/es/LC_MESSAGES/django.po
+allauth/locale/eu/LC_MESSAGES/django.mo
+allauth/locale/eu/LC_MESSAGES/django.po
 allauth/locale/fa/LC_MESSAGES/django.mo
 allauth/locale/fa/LC_MESSAGES/django.po
 allauth/locale/fi/LC_MESSAGES/django.mo
@@ -121,6 +125,11 @@ allauth/socialaccount/migrations/0003_extra_data_default_dict.py
 allauth/socialaccount/migrations/__init__.py
 allauth/socialaccount/providers/__init__.py
 allauth/socialaccount/providers/base.py
+allauth/socialaccount/providers/agave/__init__.py
+allauth/socialaccount/providers/agave/provider.py
+allauth/socialaccount/providers/agave/tests.py
+allauth/socialaccount/providers/agave/urls.py
+allauth/socialaccount/providers/agave/views.py
 allauth/socialaccount/providers/amazon/__init__.py
 allauth/socialaccount/providers/amazon/provider.py
 allauth/socialaccount/providers/amazon/tests.py
@@ -190,6 +199,11 @@ allauth/socialaccount/providers/box/provider.py
 allauth/socialaccount/providers/box/tests.py
 allauth/socialaccount/providers/box/urls.py
 allauth/socialaccount/providers/box/views.py
+allauth/socialaccount/providers/cern/__init__.py
+allauth/socialaccount/providers/cern/provider.py
+allauth/socialaccount/providers/cern/tests.py
+allauth/socialaccount/providers/cern/urls.py
+allauth/socialaccount/providers/cern/views.py
 allauth/socialaccount/providers/coinbase/__init__.py
 allauth/socialaccount/providers/coinbase/provider.py
 allauth/socialaccount/providers/coinbase/tests.py
@@ -217,6 +231,11 @@ allauth/socialaccount/providers/discord/provider.py
 allauth/socialaccount/providers/discord/tests.py
 allauth/socialaccount/providers/discord/urls.py
 allauth/socialaccount/providers/discord/views.py
+allauth/socialaccount/providers/disqus/__init__.py
+allauth/socialaccount/providers/disqus/provider.py
+allauth/socialaccount/providers/disqus/tests.py
+allauth/socialaccount/providers/disqus/urls.py
+allauth/socialaccount/providers/disqus/views.py
 allauth/socialaccount/providers/douban/__init__.py
 allauth/socialaccount/providers/douban/provider.py
 allauth/socialaccount/providers/douban/tests.py
@@ -310,6 +329,11 @@ allauth/socialaccount/providers/gitlab/provider.py
 allauth/socialaccount/providers/gitlab/tests.py
 allauth/socialaccount/providers/gitlab/urls.py
 allauth/socialaccount/providers/gitlab/views.py
+allauth/socialaccount/providers/globus/__init__.py
+allauth/socialaccount/providers/globus/provider.py
+allauth/socialaccount/providers/globus/tests.py
+allauth/socialaccount/providers/globus/urls.py
+allauth/socialaccount/providers/globus/views.py
 allauth/socialaccount/providers/google/__init__.py
 allauth/socialaccount/providers/google/provider.py
 allauth/socialaccount/providers/google/tests.py
@@ -521,6 +545,12 @@ allauth/socialaccount/providers/vimeo/provider.py
 allauth/socialaccount/providers/vimeo/tests.py
 allauth/socialaccount/providers/vimeo/urls.py
 allauth/socialaccount/providers/vimeo/views.py
+allauth/socialaccount/providers/vimeo_oauth2/__init__.py
+allauth/socialaccount/providers/vimeo_oauth2/models.py
+allauth/socialaccount/providers/vimeo_oauth2/provider.py
+allauth/socialaccount/providers/vimeo_oauth2/test.py
+allauth/socialaccount/providers/vimeo_oauth2/urls.py
+allauth/socialaccount/providers/vimeo_oauth2/views.py
 allauth/socialaccount/providers/vk/__init__.py
 allauth/socialaccount/providers/vk/provider.py
 allauth/socialaccount/providers/vk/tests.py
@@ -612,6 +642,7 @@ docs/conf.py
 docs/configuration.rst
 docs/decorators.rst
 docs/faq.rst
+docs/forms.rst
 docs/index.rst
 docs/installation.rst
 docs/overview.rst
