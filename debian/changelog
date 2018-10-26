@@ -1,3 +1,9 @@
+django-allauth (0.38.0+ds-1) UNRELEASED; urgency=medium
+
+  * New upstream release 0.38.0+ds
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Fri, 26 Oct 2018 23:15:31 +0200
+
 django-allauth (0.36.0+ds-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
