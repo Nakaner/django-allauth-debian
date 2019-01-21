@@ -1,3 +1,9 @@
+django-allauth (0.38.0+ds-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports. (Closes: #904500)
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Tue, 22 Jan 2019 00:05:26 +0100
+
 django-allauth (0.38.0+ds-1) unstable; urgency=medium
 
   [ Pierre-Elliott Bécue ]
