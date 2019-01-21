@@ -1,7 +1,7 @@
 Source: django-allauth
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Jonas Meurer <mejo@debian.org>,
-           Pierre-Elliott Bécue <becue@crans.org>
+           Pierre-Elliott Bécue <peb@debian.org>
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 11~),
@@ -16,7 +16,7 @@ Build-Depends: debhelper (>= 11~),
                python3-requests,
                python3-setuptools,
                python3-sphinx
-Standards-Version: 4.1.4
+Standards-Version: 4.2.1
 Vcs-Browser: https://salsa.debian.org/python-team/modules/django-allauth
 Vcs-Git: https://salsa.debian.org/python-team/modules/django-allauth.git
 Homepage: https://github.com/pennersr/django-allauth
