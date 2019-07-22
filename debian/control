@@ -6,59 +6,15 @@ Section: python
 Priority: optional
 Build-Depends: debhelper-compat (= 11),
                dh-python,
-               python-all,
-               python-django (>= 1:1.11~),
-               python-mock,
-               python-requests,
-               python-setuptools,
                python3-all,
                python3-django,
                python3-requests,
                python3-setuptools,
                python3-sphinx
-Standards-Version: 4.2.1
+Standards-Version: 4.4.0
 Vcs-Browser: https://salsa.debian.org/python-team/modules/django-allauth
 Vcs-Git: https://salsa.debian.org/python-team/modules/django-allauth.git
 Homepage: https://github.com/pennersr/django-allauth
-
-Package: python-django-allauth
-Architecture: all
-Depends: python-django (>= 1:1.11~),
-         python-openid,
-         python-requests,
-         python-requests-oauthlib,
-         ${misc:Depends},
-         ${python:Depends}
-Suggests: python-django-allauth-doc
-Description: Django app for local and social authentication (Python 2 version)
- Integrated set of Django applications addressing authentication,
- registration, account management as well as 3rd party (social)
- account authentication with the following supported providers:
- .
-  * Amazon (OAuth2)
-  * AngelList (OAuth2)
-  * Bitly (OAuth2)
-  * Dropbox (OAuth)
-  * Facebook (both OAuth2 and JS SDK)
-  * Feedly (OAuth2)
-  * Github (OAuth2)
-  * Google (OAuth2)
-  * Instagram (OAuth2)
-  * LinkedIn (OAuth, OAuth2)
-  * OpenId
-  * Paypal (OAuth2)
-  * Persona
-  * QuickBooks
-  * SoundCloud (OAuth2)
-  * Stack Exchange (OAuth2)
-  * Telegram
-  * Twitch (OAuth2)
-  * Twitter (OAuth)
-  * Vimeo (OAuth)
-  * VK (OAuth2)
-  * Weibo (OAuth2)
- .
- This package contains the Python 2 version of the library.
 
 Package: python3-django-allauth
 Architecture: all

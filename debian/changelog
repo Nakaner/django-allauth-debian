@@ -1,6 +1,12 @@
-django-allauth (0.38.0+ds-2) UNRELEASED; urgency=medium
+django-allauth (0.38.0+ds-2) unstable; urgency=medium
 
+  [ Ondřej Nový ]
   * Use debhelper-compat instead of debian/compat.
+
+  [ Emmanuel Arias ]
+  * Team upload
+  * Bump Standards-Version to 4.4.0
+  * Removed Python 2 support, as Django 2.2 doesn't support it anymore.
 
  -- Ondřej Nový <onovy@debian.org>  Sat, 20 Jul 2019 00:32:57 +0200
 
