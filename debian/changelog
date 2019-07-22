@@ -8,7 +8,7 @@ django-allauth (0.38.0+ds-2) unstable; urgency=medium
   * Bump Standards-Version to 4.4.0
   * Removed Python 2 support, as Django 2.2 doesn't support it anymore.
 
- -- Ondřej Nový <onovy@debian.org>  Sat, 20 Jul 2019 00:32:57 +0200
+ -- Emmanuel Arias <emmanuelarias30@gmail.com>  Mon, 22 Jul 2019 01:50:13 +0000
 
 django-allauth (0.38.0+ds-1) unstable; urgency=medium
 

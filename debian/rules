@@ -3,7 +3,7 @@
 export PYBUILD_NAME=django-allauth
 
 %:
-	dh $@ --with python2,python3,sphinxdoc --buildsystem=pybuild
+	dh $@ --with python3,sphinxdoc --buildsystem=pybuild
 
 override_dh_auto_build:
 	cd allauth && django-admin compilemessages
