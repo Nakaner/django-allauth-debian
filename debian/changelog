@@ -1,4 +1,4 @@
-django-allauth (0.38.0+ds-2) unstable; urgency=medium
+django-allauth (0.38.0+ds-2) UNRELEASED; urgency=medium
 
   [ Ondřej Nový ]
   * Use debhelper-compat instead of debian/compat.
