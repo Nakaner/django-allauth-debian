@@ -10,12 +10,12 @@ Subject: Fixes wrongly encoded characters in some .po files.
  4 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/allauth/locale/es/LC_MESSAGES/django.po b/allauth/locale/es/LC_MESSAGES/django.po
-index 81e7f5f..f76a473 100644
+index d58896c..ac2b389 100644
 --- a/allauth/locale/es/LC_MESSAGES/django.po
 +++ b/allauth/locale/es/LC_MESSAGES/django.po
 @@ -9,7 +9,7 @@ msgstr ""
  "Report-Msgid-Bugs-To: \n"
- "POT-Creation-Date: 2018-08-27 05:00-0500\n"
+ "POT-Creation-Date: 2019-02-26 12:47-0600\n"
  "PO-Revision-Date: 2018-02-14 17:46-0600\n"
 -"Last-Translator: Jannis \n"
 +"Last-Translator: Jannis Š\n"
@@ -23,25 +23,25 @@ index 81e7f5f..f76a473 100644
  "language/es/)\n"
  "Language: es\n"
 diff --git a/allauth/locale/pt_PT/LC_MESSAGES/django.po b/allauth/locale/pt_PT/LC_MESSAGES/django.po
-index 0e257f1..a907392 100644
+index 930ef14..8ca46cd 100644
 --- a/allauth/locale/pt_PT/LC_MESSAGES/django.po
 +++ b/allauth/locale/pt_PT/LC_MESSAGES/django.po
 @@ -9,7 +9,7 @@ msgstr ""
  "Report-Msgid-Bugs-To: \n"
- "POT-Creation-Date: 2018-08-27 05:00-0500\n"
- "PO-Revision-Date: 2014-08-12 00:33+0200\n"
+ "POT-Creation-Date: 2019-02-26 12:47-0600\n"
+ "PO-Revision-Date: 2019-02-26 19:48+0100\n"
 -"Last-Translator: Jannis \n"
 +"Last-Translator: Jannis Š\n"
  "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
  "django-allauth/language/pt_PT/)\n"
  "Language: pt_PT\n"
 diff --git a/allauth/locale/sv/LC_MESSAGES/django.po b/allauth/locale/sv/LC_MESSAGES/django.po
-index aa3c7ae..9da7a48 100644
+index 6b261e6..efcb0d6 100644
 --- a/allauth/locale/sv/LC_MESSAGES/django.po
 +++ b/allauth/locale/sv/LC_MESSAGES/django.po
 @@ -9,7 +9,7 @@ msgstr ""
  "Report-Msgid-Bugs-To: \n"
- "POT-Creation-Date: 2018-08-27 05:00-0500\n"
+ "POT-Creation-Date: 2019-02-26 12:47-0600\n"
  "PO-Revision-Date: 2014-08-12 00:35+0200\n"
 -"Last-Translator: Jannis \n"
 +"Last-Translator: Jannis Š\n"
@@ -49,12 +49,12 @@ index aa3c7ae..9da7a48 100644
  "language/sv/)\n"
  "Language: sv\n"
 diff --git a/allauth/locale/tr/LC_MESSAGES/django.po b/allauth/locale/tr/LC_MESSAGES/django.po
-index 91ad377..6c8964d 100644
+index 409ca9b..9c3b258 100644
 --- a/allauth/locale/tr/LC_MESSAGES/django.po
 +++ b/allauth/locale/tr/LC_MESSAGES/django.po
 @@ -10,7 +10,7 @@ msgstr ""
  "Report-Msgid-Bugs-To: \n"
- "POT-Creation-Date: 2018-08-27 05:00-0500\n"
+ "POT-Creation-Date: 2019-02-26 12:47-0600\n"
  "PO-Revision-Date: 2014-08-12 00:35+0200\n"
 -"Last-Translator: Jannis \n"
 +"Last-Translator: Jannis Š\n"
