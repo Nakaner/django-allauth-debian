@@ -90,6 +90,10 @@ allauth/locale/ru/LC_MESSAGES/django.mo
 allauth/locale/ru/LC_MESSAGES/django.po
 allauth/locale/sk/LC_MESSAGES/django.mo
 allauth/locale/sk/LC_MESSAGES/django.po
+allauth/locale/sr/LC_MESSAGES/django.mo
+allauth/locale/sr/LC_MESSAGES/django.po
+allauth/locale/sr_Latn/LC_MESSAGES/django.mo
+allauth/locale/sr_Latn/LC_MESSAGES/django.po
 allauth/locale/sv/LC_MESSAGES/django.mo
 allauth/locale/sv/LC_MESSAGES/django.po
 allauth/locale/th/LC_MESSAGES/django.mo
@@ -349,6 +353,11 @@ allauth/socialaccount/providers/instagram/provider.py
 allauth/socialaccount/providers/instagram/tests.py
 allauth/socialaccount/providers/instagram/urls.py
 allauth/socialaccount/providers/instagram/views.py
+allauth/socialaccount/providers/jupyterhub/__init__.py
+allauth/socialaccount/providers/jupyterhub/provider.py
+allauth/socialaccount/providers/jupyterhub/tests.py
+allauth/socialaccount/providers/jupyterhub/urls.py
+allauth/socialaccount/providers/jupyterhub/views.py
 allauth/socialaccount/providers/kakao/__init__.py
 allauth/socialaccount/providers/kakao/models.py
 allauth/socialaccount/providers/kakao/provider.py
@@ -500,6 +509,11 @@ allauth/socialaccount/providers/stackexchange/provider.py
 allauth/socialaccount/providers/stackexchange/tests.py
 allauth/socialaccount/providers/stackexchange/urls.py
 allauth/socialaccount/providers/stackexchange/views.py
+allauth/socialaccount/providers/steam/__init__.py
+allauth/socialaccount/providers/steam/models.py
+allauth/socialaccount/providers/steam/provider.py
+allauth/socialaccount/providers/steam/urls.py
+allauth/socialaccount/providers/steam/views.py
 allauth/socialaccount/providers/stripe/__init__.py
 allauth/socialaccount/providers/stripe/provider.py
 allauth/socialaccount/providers/stripe/tests.py
