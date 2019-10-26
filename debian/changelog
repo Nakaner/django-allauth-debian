@@ -4,6 +4,7 @@ django-allauth (0.40.0+ds-1) UNRELEASED; urgency=medium
   * d/control:
     - Bump debhelper-compat level to 12
     - Bump Standards-Version to 4.4.1
+    - Set Rules-Requires-Root to no
 
  -- Pierre-Elliott Bécue <peb@debian.org>  Sat, 26 Oct 2019 11:29:17 +0200
 
