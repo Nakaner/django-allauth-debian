@@ -1,12 +1,14 @@
-django-allauth (0.40.0+ds-1) UNRELEASED; urgency=medium
+django-allauth (0.40.0+ds-1) unstable; urgency=medium
 
   * New upstream release 0.40.0
   * d/control:
     - Bump debhelper-compat level to 12
     - Bump Standards-Version to 4.4.1
     - Set Rules-Requires-Root to no
+  * d/tests:
+    - Implement upstream tests
 
- -- Pierre-Elliott Bécue <peb@debian.org>  Sat, 26 Oct 2019 11:29:17 +0200
+ -- Pierre-Elliott Bécue <peb@debian.org>  Sat, 26 Oct 2019 11:54:12 +0200
 
 django-allauth (0.39.1+ds-1) unstable; urgency=medium
 

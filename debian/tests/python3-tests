@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+for python in $(py3versions -r); do \
+    PYTHONPATH="." DJANGO_SETTINGS_MODULE=test_settings ${python} $(which django-admin) test allauth.tests;\
+done
