@@ -1,6 +1,8 @@
 django-allauth (0.40.0+ds-1) UNRELEASED; urgency=medium
 
   * New upstream release 0.40.0
+  * d/control:
+    - Bump debhelper-compat level to 12
 
  -- Pierre-Elliott Bécue <peb@debian.org>  Sat, 26 Oct 2019 11:29:17 +0200
 
