@@ -1,3 +1,9 @@
+django-allauth (0.41.0+ds-1) unstable; urgency=medium
+
+  * New upstream release 0.41.0
+
+ -- Pierre-Elliott Bécue <peb@debian.org>  Wed, 25 Dec 2019 18:52:33 +0100
+
 django-allauth (0.40.0+ds-2) unstable; urgency=medium
 
   * Rebuild as a source-only changes.
