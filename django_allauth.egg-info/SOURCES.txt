@@ -7,7 +7,6 @@ setup.py
 test_settings.py
 allauth/__init__.py
 allauth/app_settings.py
-allauth/compat.py
 allauth/exceptions.py
 allauth/models.py
 allauth/tests.py
@@ -139,6 +138,12 @@ allauth/socialaccount/providers/amazon/provider.py
 allauth/socialaccount/providers/amazon/tests.py
 allauth/socialaccount/providers/amazon/urls.py
 allauth/socialaccount/providers/amazon/views.py
+allauth/socialaccount/providers/amazon_cognito/__init__.py
+allauth/socialaccount/providers/amazon_cognito/provider.py
+allauth/socialaccount/providers/amazon_cognito/tests.py
+allauth/socialaccount/providers/amazon_cognito/urls.py
+allauth/socialaccount/providers/amazon_cognito/utils.py
+allauth/socialaccount/providers/amazon_cognito/views.py
 allauth/socialaccount/providers/angellist/__init__.py
 allauth/socialaccount/providers/angellist/provider.py
 allauth/socialaccount/providers/angellist/tests.py
@@ -286,6 +291,11 @@ allauth/socialaccount/providers/evernote/provider.py
 allauth/socialaccount/providers/evernote/tests.py
 allauth/socialaccount/providers/evernote/urls.py
 allauth/socialaccount/providers/evernote/views.py
+allauth/socialaccount/providers/exist/__init__.py
+allauth/socialaccount/providers/exist/provider.py
+allauth/socialaccount/providers/exist/tests.py
+allauth/socialaccount/providers/exist/urls.py
+allauth/socialaccount/providers/exist/views.py
 allauth/socialaccount/providers/facebook/__init__.py
 allauth/socialaccount/providers/facebook/forms.py
 allauth/socialaccount/providers/facebook/locale.py
@@ -617,6 +627,11 @@ allauth/socialaccount/providers/yahoo/provider.py
 allauth/socialaccount/providers/yahoo/tests.py
 allauth/socialaccount/providers/yahoo/urls.py
 allauth/socialaccount/providers/yahoo/views.py
+allauth/socialaccount/providers/ynab/__init__.py
+allauth/socialaccount/providers/ynab/provider.py
+allauth/socialaccount/providers/ynab/tests.py
+allauth/socialaccount/providers/ynab/urls.py
+allauth/socialaccount/providers/ynab/views.py
 allauth/socialaccount/templatetags/__init__.py
 allauth/socialaccount/templatetags/socialaccount.py
 allauth/templates/base.html
