@@ -1,3 +1,10 @@
+django-allauth (0.40.0+ds-3) unstable; urgency=medium
+
+  * d/patches:
+    - Add 0003-cve-2019-19844.patch (addresses CVE-2019-19844)
+
+ -- Michael Reichert <osm-ml@michreichert.de>  Tue, 04 Feb 2020 17:30:23 +0100
+
 django-allauth (0.40.0+ds-2) unstable; urgency=medium
 
   * Rebuild as a source-only changes.
