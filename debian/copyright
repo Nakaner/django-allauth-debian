@@ -4,6 +4,7 @@ Author: Raymond Penners <raymond.penners@intenct.nl>
 Comment: DS rebuild to remove all .mo files from allauth/locale/*/LC_MESSAGES,
  as they're not fit to be there.
 Files-Excluded: allauth/locale/*/LC_MESSAGES/django.mo
+Upstream-Name: django-allauth
 
 Files: *
 Copyright: © 2010-2018 Raymond Penners and contributors
