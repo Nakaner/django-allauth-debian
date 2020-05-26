@@ -276,6 +276,11 @@ allauth/socialaccount/providers/edmodo/provider.py
 allauth/socialaccount/providers/edmodo/tests.py
 allauth/socialaccount/providers/edmodo/urls.py
 allauth/socialaccount/providers/edmodo/views.py
+allauth/socialaccount/providers/edx/__init__.py
+allauth/socialaccount/providers/edx/provider.py
+allauth/socialaccount/providers/edx/tests.py
+allauth/socialaccount/providers/edx/urls.py
+allauth/socialaccount/providers/edx/views.py
 allauth/socialaccount/providers/eventbrite/__init__.py
 allauth/socialaccount/providers/eventbrite/provider.py
 allauth/socialaccount/providers/eventbrite/tests.py
@@ -374,6 +379,11 @@ allauth/socialaccount/providers/kakao/provider.py
 allauth/socialaccount/providers/kakao/tests.py
 allauth/socialaccount/providers/kakao/urls.py
 allauth/socialaccount/providers/kakao/views.py
+allauth/socialaccount/providers/keycloak/__init__.py
+allauth/socialaccount/providers/keycloak/provider.py
+allauth/socialaccount/providers/keycloak/tests.py
+allauth/socialaccount/providers/keycloak/urls.py
+allauth/socialaccount/providers/keycloak/views.py
 allauth/socialaccount/providers/line/__init__.py
 allauth/socialaccount/providers/line/models.py
 allauth/socialaccount/providers/line/provider.py
@@ -412,6 +422,11 @@ allauth/socialaccount/providers/microsoft/provider.py
 allauth/socialaccount/providers/microsoft/tests.py
 allauth/socialaccount/providers/microsoft/urls.py
 allauth/socialaccount/providers/microsoft/views.py
+allauth/socialaccount/providers/mixer/__init__.py
+allauth/socialaccount/providers/mixer/provider.py
+allauth/socialaccount/providers/mixer/tests.py
+allauth/socialaccount/providers/mixer/urls.py
+allauth/socialaccount/providers/mixer/views.py
 allauth/socialaccount/providers/naver/__init__.py
 allauth/socialaccount/providers/naver/models.py
 allauth/socialaccount/providers/naver/provider.py
@@ -627,6 +642,11 @@ allauth/socialaccount/providers/yahoo/provider.py
 allauth/socialaccount/providers/yahoo/tests.py
 allauth/socialaccount/providers/yahoo/urls.py
 allauth/socialaccount/providers/yahoo/views.py
+allauth/socialaccount/providers/yandex/__init__.py
+allauth/socialaccount/providers/yandex/provider.py
+allauth/socialaccount/providers/yandex/tests.py
+allauth/socialaccount/providers/yandex/urls.py
+allauth/socialaccount/providers/yandex/views.py
 allauth/socialaccount/providers/ynab/__init__.py
 allauth/socialaccount/providers/ynab/provider.py
 allauth/socialaccount/providers/ynab/tests.py
