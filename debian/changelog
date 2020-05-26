@@ -3,13 +3,14 @@ django-allauth (0.42.0+ds-1) unstable; urgency=medium
   [ Pierre-Elliott Bécue ]
   * New upstream release 0.42.0
   * Bump debhelper-compat level to 13
+  * Add the Repository entries to d/uptream/metadata
 
   [ Debian Janitor ]
   * Set field Upstream-Name in debian/copyright.
   * Set upstream metadata fields: Bug-Database, Bug-Submit.
   * Update standards version to 4.5.0, no changes needed.
 
- -- Pierre-Elliott Bécue <peb@debian.org>  Tue, 26 May 2020 09:44:23 +0200
+ -- Pierre-Elliott Bécue <peb@debian.org>  Tue, 26 May 2020 10:20:09 +0200
 
 django-allauth (0.41.0+ds-1) unstable; urgency=medium
 
