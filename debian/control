@@ -1,5 +1,5 @@
 Source: django-allauth
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Jonas Meurer <mejo@debian.org>,
            Pierre-Elliott Bécue <peb@debian.org>
 Section: python
