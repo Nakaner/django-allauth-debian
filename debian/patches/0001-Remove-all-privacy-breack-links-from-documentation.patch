@@ -7,7 +7,7 @@ Subject: Remove all privacy breack links from documentation
  1 file changed, 22 deletions(-)
 
 diff --git a/README.rst b/README.rst
-index f21cf61..51d1713 100644
+index 1dd0487..2f39044 100644
 --- a/README.rst
 +++ b/README.rst
 @@ -2,28 +2,6 @@

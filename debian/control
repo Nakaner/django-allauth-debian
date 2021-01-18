@@ -7,8 +7,11 @@ Priority: optional
 Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all,
-               python3-django,
+               python3-cryptography,
+               python3-django (>= 1:2.0~),
+               python3-jwt,
                python3-requests,
+               python3-requests-oauthlib,
                python3-setuptools,
                python3-sphinx
 Rules-Requires-Root: no
@@ -19,7 +22,8 @@ Homepage: https://github.com/pennersr/django-allauth
 
 Package: python3-django-allauth
 Architecture: all
-Depends: python3-django (>= 1:1.11~),
+Depends: python3-cryptography,
+         python3-django (>= 1:2.0~),
          python3-openid,
          python3-requests,
          python3-requests-oauthlib,
